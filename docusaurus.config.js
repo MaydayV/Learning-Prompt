@@ -8,7 +8,7 @@ const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Learning Prompt',
+  title: 'AI绘图&Learning Prompt',
   tagline: '免费的 Prompt Engineering 教程',
   url: 'https://wiki.huitu.io',
   baseUrl: '/',
@@ -61,7 +61,7 @@ const config = {
         },
       },
       navbar: {
-        title:'Learning Prompt',
+        title:' AI绘图&Learning Prompt',
         logo: {
           alt: 'Learning Prompt logo',
           src: 'img/logo.svg',

@@ -10,13 +10,13 @@ const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
 const config = {
   title: 'Learning Prompt',
   tagline: '免费的 Prompt Engineering 教程',
-  url: 'https://learningpromt.wiki',
+  url: 'https://wiki.huitu.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'thinkingjimmy',
-  projectName: 'Learning-prompt.github.io',
+  projectName: 'wiki.huitu.io',
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
@@ -92,12 +92,7 @@ const config = {
             docId: 'midjourney-learning-path',
             label: '🖼️ Midjourney 教程',
           },
-          {to: '/blog', label: '📰 博客', position: 'left'},
-          {
-            href: 'https://github.com/thinkingjimmy/Learning-Prompt',
-            label: 'GitHub',
-            position: 'right',
-          },
+         
         ],
       },
       prism: {
